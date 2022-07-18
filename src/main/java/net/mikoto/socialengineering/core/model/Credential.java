@@ -8,7 +8,7 @@ import java.util.Objects;
  * Create at 2022/7/17
  */
 public class Credential {
-    private long id;
+    private long id = 0;
 
     public Credential(long id) {
         this.id = id;

@@ -8,8 +8,8 @@ import java.util.Objects;
  * Create at 2022/7/17
  */
 public class Mail {
-    private String mail;
-    private String password;
+    private String mail = null;
+    private String password = null;
 
     public Mail(String mail, String password) {
         this.mail = mail;

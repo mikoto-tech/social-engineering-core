@@ -8,8 +8,8 @@ import java.util.Objects;
  * Create at 2022/7/17
  */
 public class Education {
-    private String schoolName;
-    private EducationType educationType;
+    private String schoolName = null;
+    private EducationType educationType = null;
 
     public Education(EducationType educationType) {
         this.educationType = educationType;
